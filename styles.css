@@ -19,7 +19,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -27,6 +27,12 @@ body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -123,7 +129,7 @@ NAVBAR ↓
 */
 
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -360,7 +366,7 @@ header .row {
 .header__email--btn {
     z-index: 2;
     margin: 8px;
-    height: cals(100% - 16px);
+    height: calc(100% - 16px);
     border-radius: 500px;
     width: 160px;
     border: none;
@@ -536,20 +542,26 @@ FEATURES
     padding: 16px;
 }
 
-.row__narrow {
+.row {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-
+.container {
+    padding: 80px 0;
+}
 /* 
 
 QUALITY WORK ↓
 
 */
 
-
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 #quality .row {
     display: flex;
     justify-content: space-between;
