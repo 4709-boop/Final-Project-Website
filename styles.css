@@ -1508,7 +1508,7 @@ MOBILE RESPONSIVENESS ↓
         width: calc(100% - 40%);
     }
 }
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
     .nav__links {
         display: none;
     }
@@ -1624,8 +1624,7 @@ MOBILE RESPONSIVENESS ↓
             .features {
                 justify-content: center;
             }
-        }
-        .feature {
+            .feature {
             width: auto;
             max-width: 384px;
         }
@@ -1679,7 +1678,7 @@ MOBILE RESPONSIVENESS ↓
     margin-right: 0px;
     align-items: center;
 }
-.pricing .row {
+#pricing .row {
     margin-top: 40px;
     }
 
@@ -1839,11 +1838,12 @@ MOBILE RESPONSIVENESS ↓
        }
 
        .start__button::nth-child(1) {
-        margin-right: 0px;
+        margin-right: 0;
        }
 
        .start__button {
         padding: 12px 24px;
+        font-size: 14px;
        }
 
        .start__button:nth-child(2) {
